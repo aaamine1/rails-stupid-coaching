@@ -1,0 +1,21 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.body {
+  font-family: arial;
+}
+
+.submit-button {
+  background-color: lightblue;
+  text-decoration: none;
+  padding: 10px;
+  border-style: none;
+  &:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
+}
+
+form {
+  padding: 200px;
+}
